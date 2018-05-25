@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="notif">Get a notification</string>
+    <string name="accueil">You are on the Homepage</string>
+    <string name="title"> Follow your weather WeatherApplication</string>
+    <string name="Waiting">Please wait ...</string>
+    <string name="download">Download my weather</string>
+    <string name="page_download">You will be rediricted to the download page</string>
+    <string name="title_activity_content_main2">content_main2</string>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/Icon_iv"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/soleil" />
+
+        <TextView
+            android:id="@+id/titre_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/Icon_iv"
+            android:layout_toRightOf="@+id/Icon_iv"
+            android:text="Dimanche 13 mai"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/temp_max_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/titre_tv"
+            android:layout_below="@+id/titre_tv"
+            android:layout_marginTop="36dp"
+            android:layout_toRightOf="@+id/Icon_iv"
+            android:text="Temp maximum 28°C" />
+
+        <TextView
+            android:id="@+id/temp_min_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/titre_tv"
+            android:layout_below="@+id/temp_max_tv"
+            android:layout_marginTop="68dp"
+            android:layout_toRightOf="@+id/Icon_iv"
+            android:text="Temp min :20°C" />
+
+        <TextView
+            android:id="@+id/ville_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/titre_tv"
+            android:layout_below="@id/temp_min_tv"
+            android:layout_marginTop="94dp"
+            android:layout_toRightOf="@+id/Icon_iv"
+            android:text="Nice, France" />
+
+    <ImageView
+
+        android:clickable="true"
+        android:id="@+id/Web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/paris"
+        android:layout_below="@+id/ville_tv"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="171dp"
+        android:layout_toRightOf="@id/Web"
+        android:layout_marginLeft="10dp"
+        android:text="Venez découvrir Paris !"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="226dp"
+        android:text="Cliquez sur la photo pour rechercher des endroits à visités !"
+        android:layout_toRightOf="@+id/Web"
+        android:layout_marginRight="15dp"/>
+
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/pasbeau"
+        android:layout_width="wrap_content"
+        android:layout_height="126dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="44dp"
+        android:clickable="true"
+        android:src="@drawable/musee" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/ilfaitpasbeau"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/pasbeau"
+        android:text="Il fait pas beau ? Pas de problème !"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:visibility="invisible"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/ilfaitpasbeau"
+        android:text="Si la pluie et le mauvais temps lui fait perdre son charme, Paris saura vous faire succomber grâce à ses magnifiques musées" />
+
+    <TextView
+        android:visibility="invisible"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pasbeau"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="-44dp"
+        android:text="Veuillez cliquer sur l'image"
+        android:textSize="6dp"/>
+
+
+</RelativeLayout>

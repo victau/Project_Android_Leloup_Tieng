@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="notif">Obtenir une notification</string>
+    <string name="accueil">Vous êtes sur l\'accueil</string>
+    <string name="title">Suivez la météo avec WeatherApplication</string>
+    <string name="Waiting">Veuillez patientez ...</string>
+    <string name="download">Télécharger ma météo</string>
+    <string name="page_download">Vous allez être redirigé vers la page de téléchargement</string>
+    <string name="title_activity_content_main2">content_main2</string>
+</resources>
